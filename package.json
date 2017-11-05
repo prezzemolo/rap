@@ -2,7 +2,7 @@
   "name": "@prezzemolo/rap",
   "version": "0.1.0",
   "description": "resolve all promises in a object",
-  "main": "built/index.js",
+  "main": "./built/index.js",
   "types": "./built/index.d.ts",
   "repository": "https://github.com/prezzemolo/rap.git",
   "author": "prezzemolo <contact@prezzemolo.ga>",
