@@ -1,8 +1,9 @@
 {
   "name": "@prezzemolo/rap",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "resolve all promises in a object",
   "main": "built/index.js",
+  "types": "./built/index.d.ts",
   "repository": "https://github.com/prezzemolo/rap.git",
   "author": "prezzemolo <contact@prezzemolo.ga>",
   "license": "Apache-2.0",
@@ -13,6 +14,7 @@
     "tslint-config-standard": "^7.0.0"
   },
   "scripts": {
-    "lint": "tslint -p ./tslint.json"
+    "lint": "tslint -p ./tslint.json",
+    "build": "tsc"
   }
 }
