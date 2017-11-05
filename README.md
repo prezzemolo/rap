@@ -1,11 +1,26 @@
-# rap
+# @prezzemolo/rap
 resolve all promises in object
 
-## example
-```js
-const rap = require('.').default
-const { promisify } = require('util')
+## install
+```bash
+$ npm install @prezzemolo/rap
+```
 
+## example
+in JavaScript
+```js
+const rap = require('@prezzemolo/rap').default
+const { promisify } = require('util')
+```
+
+in TypeScript
+```typescript
+import rap from '@prezzemolo/rap'
+import { promisify } from 'util'
+```
+
+then
+```js
 const setTimeoutAsync = async (...rest) => {
   await promisify(setTimeout)(...rest)
   return rest[0]
@@ -43,7 +58,7 @@ const fall = async () => {
 Promise.all([fall(), parallel()]).then(console.dir)
 ```
 
-then run:
+and run
 ```bash
 $ node example.js
 parallel: 15.308ms
