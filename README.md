@@ -1,2 +1,2 @@
 # rap
-resolve all promise in object
+resolve all promises in object

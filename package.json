@@ -1,0 +1,9 @@
+{
+  "name": "@prezzemolo/rap",
+  "version": "0.0.0",
+  "description": "resolve all promises in a object",
+  "main": "src/index.js",
+  "repository": "https://github.com/prezzemolo/rap.git",
+  "author": "prezzemolo <contact@prezzemolo.ga>",
+  "license": "Apache-2.0"
+}
