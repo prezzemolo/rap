@@ -8,7 +8,7 @@ const rap = async (obj: rap): Promise<rap> => {
   const rawValues = Object.values(obj)
   const retValues = ((values: any[]): any[] =>
     values.map(value => {
-      if (!value.constructor || value.constructor.name !== 'Object')
+      if (!value || !value.constructor || value.constructor.name !== 'Object')
         return value
   
       return rap(value)
