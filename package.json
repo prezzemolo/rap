@@ -15,6 +15,7 @@
   },
   "scripts": {
     "lint": "tslint -p ./tslint.json",
-    "build": "tsc"
+    "build": "tsc",
+    "push": "yarn build && yarn publish"
   }
 }
